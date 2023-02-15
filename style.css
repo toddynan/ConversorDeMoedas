@@ -1,0 +1,77 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: #5309ca;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+.container {
+    text-align: center;
+    padding: 20px;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+#nomeUsuario {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#moedaEscolhida {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#valorParaConverter {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+#botaoConverter {
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #2f0475;
+    border-radius: 8px;
+    padding: 6px;
+    color: #ffff;
+    font-weight: bold;
+    font-family: Roboto Mono, monospace;
+    font-size: 18px;
+    border: #ffff solid 2px;
+    transition: 0.3s;
+}
+
+#botaoConverter:hover {
+    background-color: #5309ca;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+  
+.page-logo {
+    width: 200px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+body > img { /* > é "exceto" */
+    margin: 0 10px;
+}
+  
+img {
+    max-height: 150px;
+}

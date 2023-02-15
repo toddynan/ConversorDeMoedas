@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./script.js"></script>
+
+</head>
+<body>
+    <header>
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+    </header>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Moedas
+        </h1>
+        <h3 class="page-title">
+            Seja muito bem-vindo(a)!
+        </h3>
+        <br>
+        <h4 class="page-title">
+            Por favor, digite o seu nome, para que possamos conhecê-lo(a):
+        </h4>
+
+        <input type="text" name="nomeUsuario" id="nomeUsuario">
+        
+        <h4 class="page-title">
+            Escolha a moeda que deseja converter para Real: <br><br>
+            1 - Dólar <br>
+            2 - Euro <br>
+            3 - Libra Esterlina <br>
+            4 - Yuan Chinês <br>
+            5 - Iene Japonês <br>
+            6 - BitCoin
+        </h4>
+
+        <input type="number" name="moedaEscolhida" id="moedaEscolhida">
+
+        <h4 class="page-title">
+            Qual o valor que deseja converter?
+        </h4>
+
+        <input type="number" name="valorParaConverter" id="valorParaConverter">
+
+        <button id="botaoConverter" onclick="converterMoedas()">CONVERTER</button>
+
+        <h4 class="page-title" id="valorConvertido">
+
+        </h4>   
+
+    </div>
+
+</body>
+</html>
